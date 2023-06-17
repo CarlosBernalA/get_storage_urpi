@@ -9,8 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # get:
+  #   path: "D:/Proyectos Android/flutter/getx-4.6.5"
   get:
-    path: "D:/Proyectos Android/flutter/getx-4.6.5"
+    git:
+      url: https://github.com/CarlosBernalA/GetX-New.git
   path_provider: ^2.0.1
   #platform_info: ^3.0.0-nullsafety.1
 
